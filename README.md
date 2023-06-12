@@ -18,6 +18,7 @@
 - Vue.js
 - Bootstrap
 - SASS/SCSS
+- Font Awesome
 
 ---
 
