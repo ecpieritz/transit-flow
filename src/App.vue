@@ -1,14 +1,19 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About Us</router-link> |
-    <router-link to="/services">Services</router-link> |
-    <router-link to="/pricing">Pricing</router-link> |
-    <router-link to="/team">Team</router-link> |
-    <router-link to="/contact">Contact</router-link>
-  </nav>
+  <Header />
+  
   <router-view/>
 </template>
+
+<script>
+import Header from './components/Header.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Header
+  }
+}
+</script>
 
 <style lang="scss">
 
