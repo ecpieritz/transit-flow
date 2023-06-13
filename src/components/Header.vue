@@ -1,8 +1,6 @@
 <template>
   <header class="tf-header">
-
     <Navbar />
-
   </header>
 </template>
 
