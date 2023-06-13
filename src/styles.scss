@@ -1,0 +1,94 @@
+// // // // // // //
+// Font
+// // // // // // //
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;500;600;700&display=swap');
+
+$tf-yellow: #FFBE34;
+$tf-yellow-dk: #d89f23;
+$tf-navy: #091242;
+$tf-navy-lg: #1e2966;
+$tf-gray: #999999;
+$tf-gray-lg: #F4F4F4;
+$tf-font: #1C1F35;
+$tf-font-lg: #666C89;
+$tf-white: #FFFFFF;
+
+// // // // // // //
+// Base
+// // // // // // //
+html{
+  background-color: $tf-white;
+}
+
+*{
+  font-family: 'Krub', sans-serif;
+  color: $tf-font;
+}
+
+.container{
+  max-width: 1360px;
+}
+
+// // // // // // //
+// Fonts
+// // // // // // //
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h3{
+  font-size: 35px;
+}
+
+h4{
+  font-size: 30px;
+}
+
+h5{
+  font-size: 25px;
+}
+
+p{
+  font-size: 18px;
+}
+
+// // // // // // //
+// Colors
+// // // // // // //
+.tf-color{
+  &__text{
+    &__white{
+      color: $tf-white;
+    }
+  }
+}
+
+// // // // // // //
+// Buttons
+// // // // // // //
+.btn{
+  color: $tf-white;
+  font-size: 18px;
+  padding: 10px 40px;
+  border-radius: 0;
+  &.yellow-btn{
+    background-color: $tf-yellow;
+
+    &:hover{
+      background-color: $tf-yellow-dk;
+      color: $tf-white;
+    }
+  }
+  &.navy-btn{
+    background-color: $tf-navy;
+    
+        &:hover{
+          background-color: $tf-navy-lg;
+          color: $tf-white;
+        }
+  }
+}
